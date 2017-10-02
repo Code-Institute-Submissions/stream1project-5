@@ -1,0 +1,23 @@
+
+body {
+  /*background-image:url("img/img3.jpg");*/
+                
+ }
+nav{
+    
+}
+nav ul li{
+    
+}
+nav ul li a{
+   text-decoration: none;
+   list-style: none;
+    
+}
+
+footer {
+          padding-top: 30px;
+          background-color: #eee;
+          text-align:center;
+          height:100px;
+}
