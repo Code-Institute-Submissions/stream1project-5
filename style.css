@@ -1,13 +1,12 @@
 
 body {
-  /*background-image:url("img/img3.jpg");*/
-                
+  background-color:#faddd1 ;  
  }
-nav{
-    
+ .nav{
+          
 }
 nav ul li{
-    
+   
 }
 nav ul li a{
    text-decoration: none;
