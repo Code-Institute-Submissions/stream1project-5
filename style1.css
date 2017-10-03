@@ -1,0 +1,48 @@
+
+body{
+   background-color: lightblue;
+}
+
+.logo{
+     font-family: 'Monoton',cursive;
+     font-size: 100px;
+     padding: 250px 10px 100px 10px;
+     font-weight: bold;
+     font-variant: small-caps;
+ }
+ 
+ .logo-name{
+     font-size: 40px;
+     font-weight: bold;
+    
+ }
+ 
+ .nav{
+  font-family: 'Germania One',cursive;        
+}
+
+footer {
+          padding-top: 5px;
+          text-align: center;
+          height: 100px;
+}
+
+.img{
+  width:100%;  
+  height: auto;
+}
+
+h3{
+    font-family: 'Germania One',cursive;
+    color:blue;
+}
+p{
+  font-family: 'Germania One',cursive;
+  font-size: 20px;
+}
+
+.box {
+    margin-right: 10px;
+    padding-top: 10px;
+}
+

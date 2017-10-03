@@ -1,20 +1,27 @@
 
 body {
-  background-color:#faddd1 ;  
+  background-image:url("img/img6.jpg");
+  background-size: cover;
  }
+ 
+ .logo{
+     font-family: 'Nosifer',cursive;
+     font-size: 100px;
+     padding: 250px 10px 100px 10px;
+     font-weight: bold;
+     font-variant: small-caps;
+ }
+ 
+ 
+ 
  .nav{
-          
-}
-nav ul li{
-   
-}
-nav ul li a{
-   text-decoration: none;
-   list-style: none;
-    
+  font-family: 'Germania One',cursive;        
 }
 
-footer {
+
+
+
+.footer {
           padding-top: 30px;
           background-color: #eee;
           text-align:center;
