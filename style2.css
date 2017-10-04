@@ -21,20 +21,38 @@ body{
     border-color: #E7E7E7;
 }
  .nav{
-  font-family: 'Germania One',cursive;   
-  /*padding: 10px;*/
+  font-family:'Germania One',cursive;   
+    text-decoration:none;
+    text-transform: uppercase;
+    text-shadow: inherit;
 }
 
 h3{
     font-family: 'Germania One',cursive;
-    color:black;
+    color:white ;
     text-decoration:none;
-    /*text-transform: uppercase;*/
-    /*text-shadow: inherit;*/
+    text-transform: uppercase;
+    text-shadow: inherit;
 }
 
 footer {
           padding-top: 30px;
           text-align:center;
           height:100px;
+}
+.navbar-default {
+   background-color:#539BD6;
+    border-color: #E7E7E7;
+}
+.container{
+    padding: 30px;
+    margin:10px;
+}
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
 }

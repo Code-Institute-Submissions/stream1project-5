@@ -23,7 +23,9 @@ body {
   font-family: 'Germania One',cursive;        
 }
 
-
+h2{
+    font-color:blue;
+}
 h3{
     font-family: 'Nosifer',cursive;
     text-decoration: none;
