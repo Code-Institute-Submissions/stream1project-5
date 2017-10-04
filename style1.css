@@ -1,6 +1,7 @@
 
 body{
-   background-color: lightblue;
+   background-color:lighblue;
+   padding-top: 70px;
 }
 
 .logo{
@@ -11,14 +12,31 @@ body{
      font-variant: small-caps;
  }
  
- .logo-name{
-     font-size: 40px;
-     font-weight: bold;
+ /*.logo-name{*/
+     /*font-size: 30px;*/
+ /*    font-weight: bold;*/
     
- }
+ /*}*/
  
  .nav{
-  font-family: 'Germania One',cursive;        
+  font-family: 'Germania One',cursive;  
+  
+}
+.navbar-default {
+   background-color:#539BD6;
+    border-color: #E7E7E7;
+}
+.container{
+    padding: 30px;
+    margin:10px;
+}
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
 }
 
 footer {
@@ -41,7 +59,7 @@ h2{
 
 h3{
     font-family: 'Germania One',cursive;
-    color:blue;
+    color:black;
     text-decoration:none;
     text-transform: uppercase;
     text-shadow: inherit;
