@@ -26,10 +26,7 @@ body{
    background-color:#539BD6;
     border-color: #E7E7E7;
 }
-.container{
-    padding: 30px;
-    margin:10px;
-}
+
 .navbar-default .navbar-brand {
     color: #777;
 }
@@ -65,8 +62,10 @@ h3{
     text-shadow: inherit;
 }
 p{
-  font-family: 'Germania One',cursive;
+  font-family:Roboto;
   font-size: 20px;
+  font-weight: bold;
+  font-variant:inherit;
 }
 
 .box {
@@ -74,3 +73,10 @@ p{
     padding-top: 10px;
 }
 
+h4 {
+    font-family: 'Germania One',cursive;
+    color:blue;
+    text-decoration:none;
+    text-transform: uppercase;
+    text-shadow: inherit;
+}
