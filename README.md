@@ -1,26 +1,49 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+Discover Africa
+==================
+
+Discover Africa is a  the first project for the Code Institute's classroom bootcamp.
+It is a fully responsive static front-end only app built with HTML, CSS & JavaScript and no template was used.
 
 
-Hi there! Welcome to Cloud9 IDE!
+Live Demo
+-----------
+Follow this link to view deployed version of the web app 
 
-To get you started, we included a small hello world application.
+Built with
+==========
+1.HTML5
 
-1) Open the hello-world.html file
+Html 5 file was used per page.
 
-2) Click on the Preview button to open a live preview pane
+2.CSS
+It was used for styling of the web site
 
-3) Make some changes to the file, save, watch the preview, and have fun!
+3.Javascript
+It was used for mainly interacting with the user.
 
-Happy coding!
-The Cloud9 IDE team
+4.Bootstrap
+
+It was used for responsive main navigation and grid layout.
 
 
-## Support & Documentation
 
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+Installation
+=============
+
+Follow the below instructions clone this project
+
+>Click 'Clone or download' dropdown button at the top of this screen
+>Copy link -https://github.com/happiness11/stream1project.git
+>In your terminal navigate to folder you want to save the project
+>$ git clone https://github.com/happiness11/stream1project.git
+>New folder will contain all files of the project
+
+Testing
+=========
+
+Manual testing was carried out throught the creating of this projects ensuring all links and pathways worked correctly
+
+Deployment
+============
+
+This project was deployed to GitHub pages
