@@ -3,21 +3,24 @@ Discover Africa
 
 Discover Africa is a  the first project for the Code Institute's classroom bootcamp.
 It is a fully responsive static front-end only app built with HTML, CSS & JavaScript and no template was used.
+Discover Africa is a website that showcases the richness of Africa continent.
+It has four pages Home page, Explore page, Hot places to visit and contact page.
 
 
 Live Demo
------------
+=========
+
 Follow this link to view deployed version of the web app 
 
 Built with
 ==========
 1.HTML5
 
-Html 5 file was used per page.
+Html 5 file was used to generate each page.
 
 2.CSS
 
-It was used for styling of the web site
+It was used for styling of the web app.
 
 3.Javascript
 
@@ -25,14 +28,14 @@ It was used for mainly interacting with the user.
 
 4.Bootstrap
 
-It was used for responsive main navigation and grid layout.
+It was used for responsive and grid layout.
 
 
 
 Installation
 =============
 
-Follow the below instructions clone this project
+Follow the below instructions clone this project.
 
 1.Click 'Clone or download' dropdown button at the top of this screen
 
