@@ -8,20 +8,34 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
     <body>
-        <nav>
-		
-			<a id="logoNav"><font color="white">Discover Africa</font></a>
-			<a href="about.html"><font color="white">Home</font></a>
-			<a href="explore.html"><font color="white">Explore Africa</font></a>
-			<a href="places.html"><font color="white">Tourism Destinations</font></a>
-			<a href="contact.html"><font color="white">Contact</font></a>
-			
-		
+     <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><h3><strong>Discover Africa</h3></strong></a>
+                <!--add button and set class navbar-toggle and collapsed to create menu-->
+                <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#myCollapsingList">
+                    <!--creates collapsed menu icon appearance-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!--the id here is used to link to the button -->
+            <ul id="myCollapsingList"
+                class="nav navbar-nav collapsed navbar-collapse navbar-right">
+                 <li><a href="about.html"><h3>Home</h3></a></li> 
+                 <li><a href="explore.html"><h3>Explore Africa</h3></a></li>
+                 <li><a href="places.html"><h3>Tourism Centers</h3></a></li>
+                 <li><a href="contact.html"><h3>Contact</h3></a></li>
+            </ul>
+       </div> 
+    </nav>
+    
 
-	</nav>
-
-          <br />
-         <br />
+    <br />
+  <div class="container">   
                  <div class="row">
                    <div class="col-12">
                      <img src="img/img10.jpg">   
@@ -196,14 +210,14 @@
                    <br />
                    <br />
                    <br />
-                 <hr />
+                 
        <footer>         
         <div class="row">
         <div class="col-md-12 footer">          
         
                    <br />
                    
-                 <a href="#"><h3><font color="white">Connect on Social</font></h3></a>
+                 <h3><font color="white">Connect on Social</font></h3>
                   <br />
                   <br />
                  <a href="www.linkedin.com"><i class="fa fa-linkedin-square icon" aria-hidden="true"></i></a>
@@ -215,6 +229,7 @@
                
                   <h3>&copy Discover Africa 2018</h3>
    </div>
+   </div> 
    </footer>
     </body>
     <script src="https://code.jquery.com/jquery.min.js"></script>

@@ -9,33 +9,44 @@
      
   </head>
 <body>
-    
-    
- <nav>
-		
-            <a id="logoNav"><font color="white">Discover Africa</font></a>
-			<a href="about.html"><font color="white">Home</font></a>
-			<a href="explore.html"><font color="white">Explore Africa</font></a>
-			<a href="places.html"><font color="white">Tourism Destinations</font></a>
-			<a href="contact.html"><font color="white">Contact</font></a>
-			
-		
-
-	</nav>
-
-<div class="container">
+    <!--<div class="navbar">-->
+     <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><h3><strong>Discover Africa</h3></strong></a>
+                <!--add button and set class navbar-toggle and collapsed to create menu-->
+                <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#myCollapsingList">
+                    <!--creates collapsed menu icon appearance-->
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!--the id here is used to link to the button -->
+            <ul id="myCollapsingList"
+                class="nav navbar-nav collapsed navbar-collapse navbar-right">
+                 <li><a href="about.html"><h3>Home</h3></a></li> 
+                 <li><a href="explore.html"><h3>Explore Africa</h3></a></li>
+                 <li><a href="places.html"><h3>Tourism Centers</h3></a></li>
+                 <li><a href="contact.html"><h3>Contact</h3></a></li>
+            </ul>
+       </div> 
+    </nav>
+    <!--</div>-->
+   <div class="container">
+       
         <div class="row">
             <img src="img/img.gif">
-                
-            
       </div>
         	
      
-           
+    <br /> 
+<div class="container">
    <div class="row">
-      <div class="box">
-         <div class="col-md-6">
-                      <a href="#"><h3>How it all started?</h3></a>
+    <div class="col-md-6">
+                    <a href="#"><h3>How it all started?</h3></a>
                       <p>Discover Africa is a non-profit Organization. It was started on September 2017. 
                         Its sole responsibility is to showcase the richness and 
                         diversity of African culture to the world at large. 
@@ -51,10 +62,6 @@
                       <br/>
                       <br/>
                </div>
-        </div>
-         
-         
-      <div class="box">
         <div class="col-md-6">
                        <a href="#"><h3> History of Africa</h3></a>
                        <p>Africa is a vast continent,the second largest in the world, in fact. 
@@ -71,17 +78,15 @@
                        <br/>
                        <br/>
             </div> 
-       </div>
+       
    </div> 
-   
-   <br />
-   <hr />
+   </div>
    
    
    <div class="row">
        <div class="trending">
-           <div class="col-md-12">
-        <a href="contact.html"><h1>African Cuisines</h1></a>
+           <div class="col-md-4 -offsetcol-md-4">
+        <a href="#"><h1>African Cuisines</h1></a>
         </div>     
      </div>
   </div>
@@ -93,7 +98,7 @@
          
     <div class="col-md-4">
           <div class="thumbnail">
-            <img src="http://placehold.it/500x300" alt="">
+            <img src="img/etor.jpeg" alt="">
               <div class="caption">
                <h3>Etor</h3>
         
@@ -112,14 +117,14 @@
            
        <div class="col-md-4">
           <div class="thumbnail">
-            <img src="http://placehold.it/500x300" alt="">
+            <img src="img/img06.jpg" alt="">
               <div class="caption">
                <h3>Jollof Rice</h3>
         
                         <p> Jollof rice is one of the most common dishes in Western Africa. 
                         The name Jollof rice derives from the name of the Wolof people,
                         though in Senegal and Gambia the dish is referred to in Wolof as theibou dienne or benachin. 
-                        In French-speaking areas, it is called riz au gras.
+                        In French areas, it is called riz au gras.
                   
                         <p />
                       
@@ -133,7 +138,7 @@
        
       <div class="col-md-4">
           <div class="thumbnail">
-            <img src="http://placehold.it/500x300" alt="">
+            <img src="img/suya.jpg" alt="">
               <div class="caption">
         <h3>Suya</h3>
         
@@ -160,13 +165,15 @@
       
    <br />
    <br />
-    <footer>         
+   </div>
+    <footer>  
+        <div class="container-fluid">
         <div class="row">
         <div class="col-md-12 footer">          
         
             <br />
                    
-                <a href="#"><h3><font color="white">Connect on Social</font></h3></a>
+                <h3><font color="white">Connect on Social</font></h3>
                   <br />
                   <br />
                         <a href="www.linkedin.com"><i class="fa fa-linkedin-square icon" aria-hidden="true"></i></a>
@@ -181,6 +188,7 @@
      </div>
     </div>
    </div>
+   
    </footer>
  </body>
     
