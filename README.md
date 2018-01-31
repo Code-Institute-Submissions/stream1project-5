@@ -4,7 +4,7 @@ Discover Africa
 Discover Africa is the stream one project for the Code Institute's classroom bootcamp.
 It is a fully responsive static front-end only app built with HTML, CSS & JavaScript and no template was used.
 Discover Africa is a website that showcases the richness of Africa continent.
-It has four pages Home page, Explore page, Hot places to visit and contact page.
+It has four pages Home page, Explore Africa page, Tourism Centers page and Contact page.
 
 
 Live Demo
