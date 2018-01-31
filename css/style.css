@@ -1,12 +1,14 @@
 
 body{
-    padding-top:250px; 
+    padding-top:100px; 
 }
 
 
 h2{
     font-family:'Roboto';
     text-decoration:none;
+    font-size: 10px;
+    font-color:white;
 }
 
 
@@ -16,42 +18,24 @@ h1{
 }
 
 
-h3{
+h3,h4{
     font-family:'Germania One',cursive;
-    text-decoration:none !important;
-    text-transform: uppercase;
-    text-shadow: inherit;
+    text-decoration:none;
 }
 
-
-p{
-  font-family:Roboto;
-  font-size:20px;
-  font-variant:inherit;
-  text-decoration:none;
-}
 
 
 .box{
-    margin-right: 1px;
+    margin-right: -5px;
     padding-top: 1px;
-    /*display: inline;*/
+    
 }
-
-
-h4{
-    font-family:'Germania One',cursive;
-    color:blue;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: inherit;
-}
+/*Contact form*/
 
 input[type="name"]
 {
 background-color: #3379b7;
 }
-
 
 input[type="email"]
 {
@@ -64,16 +48,10 @@ background-color: #3379b7;
 background-color: #3379b7;
 }
 
-/*footer {*/
-/*      padding-top: 50px;*/
-/*      padding-bottom: 50px;*/
-/*      text-align: center;*/
-/*      height: 100px;*/
-/*}*/
+/* navbar*/
 
  .navbar {
-  /*overflow: hidden;*/
-  padding-top:70px;
+  padding-top:20px;
   position: fixed;
   width: 100%;
   background-color: #3379b7;
@@ -85,13 +63,13 @@ background-color: #3379b7;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  
 }
 
  
 img {
     width: 100%;
-    height: auto;
+    height: 700px;
+    border-radius: 10px;
 }
  
 video {
@@ -108,15 +86,11 @@ video {
     width: 100%;
 }
 
-.trending {
-    background-color:#3379b7;
-    font-color:white;
-}
 
-.footer {
+footer {
   background-color:#3379b7;
   padding: 1rem;
-  height:50px;
+  height:70px;
   width:100%;
   text-align: center;
 }
@@ -126,8 +100,7 @@ video {
      font-size: 10px;
  }
  
-.btn
- {
+.btn{
 text-align: center;
  }
 
@@ -136,10 +109,9 @@ text-align: center;
 
 @media(min-width:768px) {
   
-    
-/*body {*/
-/*    padding-top: 50px;*/
-/*}*/
+body {
+    padding-top: 100px;
+}
 
 
 }
@@ -147,18 +119,17 @@ text-align: center;
 @media(min-width:992px){
   
     
-/*body {*/
-/*    padding-top: 50px;*/
-/*}*/
+body {
+    padding-top: 110px;
+}
 
 
 }
+
 @media(min-width:1200px){
   
-
-    
-/*body {*/
-/*    padding-top: 50px;*/
-/*}*/
+body {
+    padding-top: 110px;
+}
 
 }

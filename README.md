@@ -10,7 +10,7 @@ It has four pages Home page, Explore page, Hot places to visit and contact page.
 Live Demo
 =========
 
-Follow this link to view deployed version of the web app:(https://happiness11.github.io/stream1project/) 
+Follow this link to view deployed version of the web app:https://happiness11.github.io/stream1project/ 
 
 Built with
 ==========
@@ -39,11 +39,11 @@ Follow the below instructions clone this project.
 
 1.Click 'Clone or download' dropdown button at the top of this screen
 
-2.Copy link - (https://github.com/happiness11/stream1project)
+2.Copy link - https://github.com/happiness11/stream1project
 
 3.In your terminal navigate to folder you want to save the project
 
-4.$ git clone (https://github.com/happiness11/stream1project)
+4.$ git clone https://github.com/happiness11/stream1project
 
 5.New folder will contain all files of the project
 
@@ -55,4 +55,4 @@ Manual testing was carried out throught the creating of this projects ensuring a
 Deployment
 ============
 
-This project was deployed to GitHub pages(https://happiness11.github.io/stream1project/).
+This project was deployed to GitHub pages: https://happiness11.github.io/stream1project/
